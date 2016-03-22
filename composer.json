@@ -1,0 +1,19 @@
+{
+    "name": "parse1",
+    "description": "Parse PHP SDK",
+    "keywords": ["parse", "sdk"],
+    "type": "library",
+    "license": "Parse Platform License",
+    "authors": [
+        {
+            "name": "Andrey"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+	"braintree/braintree_php" : "3.6.1",
+	"parse/php-sdk" : "1.1.*"
+    }
+}
